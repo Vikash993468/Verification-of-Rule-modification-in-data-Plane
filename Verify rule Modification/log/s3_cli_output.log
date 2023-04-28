@@ -1,0 +1,77 @@
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Setting default action of ipv4_exact
+action:              drop
+runtime data:        
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:01:01	EXACT-0a:00:03:03
+action:              ipv4_forward
+runtime data:        00:00:0a:00:03:03	00:02
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:02:02	EXACT-0a:00:03:03
+action:              ipv4_forward
+runtime data:        00:00:0a:00:03:03	00:02
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:04:04	EXACT-0a:00:03:03
+action:              ipv4_forward
+runtime data:        00:00:0a:00:03:03	00:02
+Entry has been added with handle 2
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:05:05	EXACT-0a:00:03:03
+action:              ipv4_forward
+runtime data:        00:00:0a:00:03:03	00:02
+Entry has been added with handle 3
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:04:04	EXACT-0a:00:01:01
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 4
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:04:04	EXACT-0a:00:02:02
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 5
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:04:04	EXACT-0a:00:05:05
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 6
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:03:03	EXACT-0a:00:01:01
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 7
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:03:03	EXACT-0a:00:02:02
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 8
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:03:03	EXACT-0a:00:05:05
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 9
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:01:01	EXACT-0a:00:04:04
+action:              ipv4_forward
+runtime data:        00:00:0a:00:04:04	00:03
+Entry has been added with handle 10
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:02:02	EXACT-0a:00:04:04
+action:              ipv4_forward
+runtime data:        00:00:0a:00:04:04	00:03
+Entry has been added with handle 11
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:03:03	EXACT-0a:00:04:04
+action:              ipv4_forward
+runtime data:        00:00:0a:00:04:04	00:03
+Entry has been added with handle 12
+RuntimeCmd: Adding entry to exact match table ipv4_exact
+match key:           EXACT-0a:00:05:05	EXACT-0a:00:04:04
+action:              ipv4_forward
+runtime data:        00:00:0a:00:04:04	00:03
+Entry has been added with handle 13
+RuntimeCmd: 

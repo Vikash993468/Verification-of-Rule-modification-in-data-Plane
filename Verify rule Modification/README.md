@@ -1,26 +1,5 @@
 # Implementing Basic Forwarding
 
-```
-                   +--+
-                   |h4|
-                   ++-+
-                    |
-                    |
-+--+      +--+     ++-+     +--+
-|h1+------+s1+-----+s3+-----+h3|
-+--+      +-++     +--+     +--+
-            |
-            |
-          +-++
-          |s2|
-          +-++
-            |
-            |
-          +-++
-          |h2|
-          +--+
-```
-
 ## Introduction
 
 The objective of this exercise is to write a P4 program that

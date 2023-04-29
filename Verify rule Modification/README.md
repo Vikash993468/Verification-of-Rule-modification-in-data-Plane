@@ -1,4 +1,4 @@
-# Implementing Basic Forwarding
+# Implementing Rule modification
 
 ## Introduction
 
@@ -38,4 +38,41 @@ Ping from all host pairs to test for connectivity:
 ```
 mininet> pingall
 ```
+Now run the attack file in the terminal which is drop.py
+
+```
+sudo python drop.py
+```
+Now check the switch 1 and switch 5 commands ,action should be changed to drop from forward.
+
+Now run the sudo p4run command to act the necessary changes.
+```
+sudo p4run
+```
+check in the xterm or by pingall ,communication should be stopped between desired hosts.
+
+```
+mininet> pingall
+```
+or
+
+```
+mininet> xterm h1 h2
+```
+send the traffic fromm h1 to h2 and verify that communication is topped between the hosts
+run the command on receiver host
+```
+sudo python receive.py
+```
+run the following command on sender host
+
+```
+sudo python send.py 10.0.2.2
+```
+communication should be stopped between h1 to h2.
+
+
+Till now Attcak has been done on the switch.
+
+
 

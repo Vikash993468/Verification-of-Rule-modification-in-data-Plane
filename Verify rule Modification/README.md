@@ -59,8 +59,8 @@ or
 ```
 mininet> xterm h1 h2
 ```
-send the traffic fromm h1 to h2 and verify that communication is topped between the hosts
-run the command on receiver host
+send the traffic fromm h1 to h2 and verify that communication is topped between the hosts.
+Run the command on receiver host in the xterm
 ```
 sudo python receive.py
 ```
